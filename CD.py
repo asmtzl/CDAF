@@ -4,7 +4,7 @@ import numpy as np
 import glob
 import matplotlib.pyplot as plt
 #get frames in folder 
-Frames_path = r"c:\\Users\\asm\Desktop\\Asm Staj\\archive"
+Frames_path = r"archive"
 img_names = glob.glob(f"{Frames_path}/*.jpg")
 
 print(f"Iterating over {len(img_names)} frames at: {Frames_path}")
